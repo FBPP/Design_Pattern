@@ -17,7 +17,6 @@ public:
 
 };
 
-//----------------------------------------------
 //Application Developer
 class Application
 {
@@ -32,11 +31,10 @@ public:
 	}
 };
 
-//---------------------------------------------
 int main()
 {
-	Library lib();
-	Application app();
+	Library lib;
+	Application app;
 	
 	lib.Step1();
 	if(app.Step2())

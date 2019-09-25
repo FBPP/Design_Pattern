@@ -30,7 +30,6 @@ protected:
 
 };
 
-//------------------------------------------------------------------------------
 class Application : public Library
 {
 protected:
@@ -45,10 +44,9 @@ protected:
 
 };
 
-//---------------------------------------------------------------------
 int main()
 {
-	Library * pLib = new Application();
+	Library * pLib = new Application;
 	pLib->Run();
 	delete pLib;
 	return 0;
